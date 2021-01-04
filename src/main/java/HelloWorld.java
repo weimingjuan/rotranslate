@@ -19,18 +19,18 @@ public class HelloWorld {
 //            var unpack =  ChecksumUnpack(bytes);
 //            SaveToJson(unpack);
 
-//            var bytes1 = toByteArray("D:\\private\\roo\\1229\\123456789.robytes");
-//            var unpack1 =  DatabaseUnpack(bytes1);
-//            SaveToJson(unpack1);
+            var bytes1 = toByteArray("D:\\private\\roo\\1229\\123456789.robytes");
+            var unpack1 =  DatabaseUnpack(bytes1);
+            SaveToJson(unpack1);
 
 //            var bbb = GetFile("D:\\private\\roo\\1229\\file.json");
 //            var sss = ChecksumPack(bbb);
 //            writeBytesToFile("D:\\private\\roo\\1229\\fff_fff_fff", sss);
 
-            var bbb1 = GetDatabaseFile("D:\\private\\roo\\1229\\database.json");
-            var sss1 = DatabasePack(bbb1, false);
-            writeBytesToFile("D:\\private\\roo\\1229\\123456789.robytes", sss1);
-            System.out.println("DDDDD");
+            //var bbb1 = GetDatabaseFile("D:\\private\\roo\\1229\\database.json");
+            //var sss1 = DatabasePack(bbb1, false);
+            //writeBytesToFile("D:\\private\\roo\\1229\\123456789.robytes", sss1);
+            //System.out.println("DDDDD");
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
